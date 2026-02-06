@@ -1,6 +1,6 @@
 let word = prompt("Palindrome checker")
 let reverse = ""
-let noSpace = word.replace(/\s+/g, "");
+let noSpace = word.replace(/\+/g, "");
 
     for (let i = noSpace.length - 1; i >= 0; i--) {
     reverse += noSpace[i];
